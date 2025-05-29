@@ -1,0 +1,44 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  color: #e50914;
+  margin-bottom: 0.2em;
+  letter-spacing: 4px;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #e50914;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #e50914;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.links a:hover {
+  background-color: #b0060e;
+}
